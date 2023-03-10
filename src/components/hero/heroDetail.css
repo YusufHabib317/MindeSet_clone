@@ -1,0 +1,86 @@
+/* .background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/639ab56c8d2e3a7b5bafc199_hero-line-02.svg");
+  background-image: url("../../assets/639ab56c8d2e3a7b5bafc199_hero-line-02.svg");
+  background-size: cover;
+  background-position: center;
+  background-position: right;
+} */
+/* .s {
+  position: relative;
+} */
+/* .s::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 90%;
+  left: 0;
+  border-left: 2px solid transparent;
+  animation: type 3s steps(7) infinite;
+  background-color: #f3f5f8;
+} */
+/* .li {
+  animation: slide 9s infinite steps(3);
+  animation-delay: 3s;
+  position: relative;
+  top: 0;
+} */
+
+/* @keyframes type {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 100%;
+  }
+  55% {
+    left: 90%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes slide {
+  100% {
+    top: -300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .s::after {
+    animation: type 3s steps(7) infinite;
+  }
+  .li {
+    animation: slide 9s infinite steps(3);
+    animation-delay: 3s;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -150px;
+    }
+  }
+} */
+
+.ss::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f3f5f8;
+  z-index: 0;
+  animation: animate 3s steps(12) infinite;
+}
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}

@@ -1,0 +1,15 @@
+.replace {
+  background: rgb(242, 120, 201);
+  background: linear-gradient(
+    135deg,
+    rgba(242, 120, 201, 1) 0%,
+    rgba(121, 9, 79, 1) 0%,
+    rgb(243, 159, 49) 100%
+  );
+}
+.replace div {
+  background-image: url("../../assets/639ab56c8d2e3a3c35afc1ad_full-width-line-02.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
